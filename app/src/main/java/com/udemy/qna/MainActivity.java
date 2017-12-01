@@ -57,10 +57,9 @@ public class MainActivity extends AppCompatActivity {
         for(int i= 0; i< UserData.names.length; i++) {
             users.add(new User(UserData.names[i],UserData.images[i]));
         }
-        MyAdapter adapter = new MyAdapter(users);
+        MyAdapter adapter = new MyAdapter(this, users);
         listView.setAdapter(adapter);
-
-
+        
     }
 
 }
