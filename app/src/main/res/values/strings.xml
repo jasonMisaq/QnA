@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QnA</string>
+    <string name="username_required">Username is required</string>
+</resources>
